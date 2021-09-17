@@ -27,6 +27,7 @@ pipeline{
                 sh '''
                     oc project hsnfcw-greetings
                     oc start-build greeting-console  --follow --wait
+                '''
         
             }
         }
